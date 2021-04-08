@@ -1,28 +1,29 @@
 {
-  "name": "static",
+  "name": "Sus",
   "version": "1.0.0",
-  "description": "This is a static template with no bundling",
-  "main": "index.html",
+  "description": "Among us",
+  "main": "index.js",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  "engines": {
+    "node": "12.20.0"
   },
-  "keywords": [
-    "static",
-    "template",
-    "codesandbox"
-  ],
-  "author": "Ives van Hoorne",
+  "keywords": [],
+  "author": "zachariapopcorn#8105",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-    "serve": "^11.2.0"
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "got": "^11.8.1",
+    "keyv": "^4.0.3",
+    "noblox.js": "^4.8.5",
+    "paste.ee": "^1.0.0",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.4.5",
+    "yiff": "^2.0.3",
+    "puppeteer": "^7.1.0",
+    "discord.js-poll-embed": "^1.0.2"
   }
 }
